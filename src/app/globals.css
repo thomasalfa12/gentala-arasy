@@ -1,26 +1,51 @@
 @import "tailwindcss";
+@plugin "tailwindcss-animate";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Definisikan token v4 */
+@theme {
+  --radius: 0.75rem; /* Sedikit lebih besar untuk kesan modern */
+
+  /* === Variabel Warna Light Mode (Clean & Vibrant Green) === */
+  --color-background: oklch(0.99 0.005 150); /* Putih dengan sedikit hint hijau */
+  --color-foreground: oklch(0.15 0.01 150);  /* Abu-abu tua kehijauan */
+  
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.15 0.01 150);
+
+  --color-popover: oklch(1 0 0);
+  --color-popover-foreground: oklch(0.15 0.01 150);
+
+  --color-primary: oklch(0.75 0.25 140); /* Hijau Lemon yang cerah */
+  --color-primary-foreground: oklch(0.1 0.05 140); /* Teks hitam pekat untuk kontras */
+
+  --color-secondary: oklch(0.95 0.02 150);
+  --color-secondary-foreground: oklch(0.25 0.01 150);
+
+  --color-muted: oklch(0.97 0.01 150);
+  --color-muted-foreground: oklch(0.45 0.01 150);
+
+  --color-accent: oklch(0.95 0.02 150);
+  --color-accent-foreground: oklch(0.15 0.01 150);
+  
+  --color-destructive: oklch(0.55 0.22 15);
+  --color-border: oklch(0.92 0.02 150);
+  --color-input: oklch(0.92 0.02 150);
+  --color-ring: oklch(0.75 0.25 140 / 0.8);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+/* Base */
+@layer base {
+  * { border-color: var(--color-border); }
+  body { background-color: var(--color-background); color: var(--color-foreground); }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
