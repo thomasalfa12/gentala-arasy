@@ -1,37 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏋️‍♂️ Template Gym & Fitness "Gentala Arasy"
+<img width="1440" height="786" alt="image" src="https://github.com/user-attachments/assets/fbe561ad-7c6b-40a8-a5ed-e5e99f507d3f" />
 
-## Getting Started
+"Gentala Arasy" adalah sebuah template website modern, enerjik, dan fungsional yang dirancang khusus sebagai solusi digital untuk Gym, Fitness Center, dan Studio Yoga. Proyek ini bertujuan untuk menyediakan "wajah digital" yang tidak hanya menarik secara visual, tetapi juga dilengkapi dengan fitur-fitur inti yang mendorong konversi dan pendaftaran anggota baru.
 
-First, run the development server:
+➡️ Lihat Live Demo <-- Ganti dengan link Vercel Anda
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🎯 Tujuan & Target Pengguna
+Tujuan utama dari template ini adalah untuk mengubah pengunjung online menjadi anggota gym yang aktif. Desain dan fiturnya dirancang untuk menjawab kebutuhan spesifik dari bisnis di industri kebugaran:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Gym & Fitness Center: Menampilkan fasilitas, kelas, dan paket membership dengan cara yang profesional dan menggugah semangat.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Studio Yoga & Pilates: Memberikan kesan yang tenang namun modern, dengan fokus pada jadwal dan profil instruktur.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Personal Trainer: Sebagai portofolio digital untuk memamerkan keahlian, testimoni klien, dan menawarkan sesi booking.
 
-## Learn More
+✨ Fitur Unggulan
+Setiap komponen dalam template ini dirancang untuk hasil bisnis yang nyata.
 
-To learn more about Next.js, take a look at the following resources:
+Paket Membership yang Menonjol: Seksi harga (pricing) yang dirancang khusus untuk menampilkan paket keanggotaan. Dilengkapi dengan highlight untuk paket "Paling Populer" guna mendorong pilihan pelanggan.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Alur Booking Kelas yang Canggih: Sebuah modal interaktif multi-langkah yang memungkinkan pengguna memilih kelas, mengisi data diri, dan langsung mendapat konfirmasi serta link Google Calendar.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Integrasi WhatsApp Langsung: Semua formulir (booking dan membership) terhubung langsung ke WhatsApp, mengubah minat menjadi percakapan nyata tanpa perlu API yang rumit.
 
-## Deploy on Vercel
+Etalase Kelas & Pelatih: Menampilkan kelas dan pelatih unggulan di halaman utama, dengan opsi "Lihat Semua" yang membuka modal berisi daftar lengkap untuk menjaga halaman tetap ringkas.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Desain "Mobile-First" dengan Bottom Dock: Sesuai filosofi utama kami, navigasi di perangkat mobile menggunakan bottom dock yang ergonomis dan selalu terlihat, memberikan pengalaman layaknya aplikasi premium.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# gentala-arasy
+Carousel Horizontal di Mobile: Untuk seksi dengan banyak item (kelas, pelatih, harga), tampilan di mobile otomatis berubah menjadi carousel yang bisa digeser, menghemat ruang vertikal dan meningkatkan interaksi.
+
+🎨 Filosofi Desain: "Clean & Vibrant"
+Desain "Gentala Arasy" berpegang pada tiga pilar utama:
+
+Cerah & Bersih (Light & Airy): Menggunakan latar belakang terang (off-white) untuk menciptakan kesan ruang yang luas, bersih, dan fokus pada konten.
+
+Aksen Enerjik: Satu warna aksen yang kuat (hijau lime atau kuning cerah) digunakan untuk tombol dan elemen penting, memberikan suntikan energi dan semangat yang identik dengan dunia fitness.
+
+Tipografi yang Kuat: Kombinasi font modern (seperti Montserrat untuk judul) memberikan kesan yang kuat dan berwibawa, namun tetap mudah dibaca.
+
+🛠️ Teknologi yang Digunakan
+Framework: Next.js (App Router)
+
+Styling: Tailwind CSS v4
+
+Komponen UI: shadcn/ui
+
+Animasi: Framer Motion
+
+Manajemen State: Zustand
+
+Validasi Form: React Hook Form
